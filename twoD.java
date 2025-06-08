@@ -1,9 +1,7 @@
-import java.util.Arrays;
 import java.util.Scanner;
 public class twoD {
     public static void main(String[] args) {
         int [][] vishal = new int [3][3];
-        int [][] piyush = new int [3][];
         Scanner in = new Scanner(System.in);
         for(int i=0; i< vishal.length; i++){
             System.out.println("Enter the value of the matrix for"+i+" row");
